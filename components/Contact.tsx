@@ -173,6 +173,10 @@ export default function Contact() {
                   exit={{ opacity: 0 }}
                   className="space-y-4"
                 >
+                  {/* Honeypot & Formspree Configuration */}
+                  <input type="text" name="_gotcha" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+                  <input type="hidden" name="_subject" value="New Portfolio Message" />
+
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="space-y-1.5">
                       <label className="text-[9px] font-black text-muted-foreground uppercase tracking-widest ml-3">Full Name</label>
