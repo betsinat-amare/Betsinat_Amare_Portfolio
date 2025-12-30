@@ -71,6 +71,16 @@ export default function Contact() {
         >
           Professional <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-purple-600 italic">Inquiry.</span>
         </motion.h3>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="text-muted-foreground text-lg leading-relaxed max-w-xl mt-6 font-light"
+        >
+          Currently looking for software engineering internships and collaborative opportunities in <span className="text-foreground font-medium">AI</span>, <span className="text-foreground font-medium">Data Science</span>, and <span className="text-foreground font-medium">Full Stack</span> development.
+        </motion.p>
       </div>
 
       <div className="grid lg:grid-cols-12 gap-10 lg:gap-12">
