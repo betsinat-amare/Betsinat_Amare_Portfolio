@@ -85,7 +85,7 @@ export default function Header() {
               </motion.div>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1LJ4i6sFitpr6QzYzbYhgGLtxQdLXN2yw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YrDbyE7DCJAl2OeEQ0JT07k-EnkGEQpw/view?usp=sharing"
               target="_blank"
               className="ml-2 px-3 py-1 rounded-full bg-brand/10 border border-brand/20 text-brand text-[8px] font-black uppercase tracking-widest hover:bg-brand/20 transition-all font-mono"
             >

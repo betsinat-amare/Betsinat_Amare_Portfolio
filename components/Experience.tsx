@@ -44,10 +44,10 @@ const experiences = [
     border: "border-blue-500/20"
   },
   {
-    date: "2023 - Present",
+    date: "2026",
     title: "Engineering Trainee",
     company: "10 Academy",
-    description: "Intensive, industry-focused training in Data Science and Data Engineering. Mastering modern web development workflows and cloud infrastructure practices.",
+    description: "Intensive 12-week project-based training specializing in Data Engineering (ETL/ELT, dbt, DVC), Machine Learning (MLOps, MLFlow), and Generative AI (RAG, LLM fine-tuning). Mastered end-to-end deployment using Docker and CI/CD, with advanced proficiency in Python, SQL, and Javascript.",
     type: "Training",
     color: "text-emerald-500",
     bg: "bg-emerald-500/10",
@@ -56,6 +56,13 @@ const experiences = [
 ];
 
 const certificates = [
+  {
+    title: "Kifiya AI Mastery Training Program (with distinction)",
+    issuer: "10 Academy",
+    date: "Mar 2026",
+    image: "/certificates/10-academy.png",
+    link: "https://drive.google.com/file/d/1Dm0tXUtgw94sGfjIN44RqfEgGiKnNw69/view?usp=sharing"
+  },
   {
     title: "Oracle Certified Foundations Associate",
     issuer: "Oracle University",
